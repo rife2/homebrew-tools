@@ -11,10 +11,10 @@ class Rife2Bld < Formula
     rm_f Dir["bin/*.bat"]
     libexec.install %w[bin lib]
     env = Language::Java.overridable_java_home_env("19")
-    (bin/"rife2-bld").write_env_script libexec/"bin/rife2-bld", env
+    (bin/"bld").write_env_script libexec/"bin/bld", env
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/rife2-bld help")
+    assert_match version.to_s, shell_output("#{bin}/bld help")
   end
 end
