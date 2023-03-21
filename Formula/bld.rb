@@ -1,4 +1,4 @@
-class Rife2Bld < Formula
+class Bld < Formula
   desc "Open-source build tool for the RIFE2 Java web framework"
   homepage "https://rife2.com"
   url "https://repo1.maven.org/maven2/com/uwyn/rife2/rife2/1.5.2/rife2-1.5.2-bld.zip"
