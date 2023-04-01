@@ -1,8 +1,8 @@
 class Bld < Formula
   desc "Open-source build tool for the RIFE2 Java web framework"
   homepage "https://rife2.com"
-  url "https://repo1.maven.org/maven2/com/uwyn/rife2/rife2/1.5.9/rife2-1.5.9-bld.zip"
-  sha256 "86ed75c7d8371e5095a0e7623450f73e6137864aa8187a81c9ee3c4ad306b901"
+  url "https://repo1.maven.org/maven2/com/uwyn/rife2/rife2/1.5.10/rife2-1.5.10-bld.zip"
+  sha256 "63cf4e64a55b7af1c921db41254c83e5ec1b28b4e1bdfe274acd9a13e08298d4"
   license "Apache-2.0"
 
   depends_on "openjdk"
