@@ -1,8 +1,8 @@
 class Bld < Formula
   desc "Pure java build tool for developers who don't like dealing with build tools"
   homepage "https://rife2.com/bld"
-  url "https://repo1.maven.org/maven2/com/uwyn/rife2/bld/2.0.0/bld-2.0.0.zip"
-  sha256 "0e1a0f3c8416c790288744e2a28419d6ace42f119889c4c3a1335053ab32e409"
+  url "https://repo1.maven.org/maven2/com/uwyn/rife2/bld/2.0.1/bld-2.0.1.zip"
+  sha256 "3d844adce711c23896dfa778f49cd2c34a1132e9612b13005159adaf2f42ae02"
   license "Apache-2.0"
 
   depends_on "openjdk"
