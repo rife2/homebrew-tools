@@ -1,8 +1,8 @@
 class Bld < Formula
   desc "Pure java build tool for developers who don't like dealing with build tools"
   homepage "https://rife2.com/bld"
-  url "https://repo1.maven.org/maven2/com/uwyn/rife2/bld/2.3.0/bld-2.3.0.zip"
-  sha256 "946664ab711309a80cf8ff67ed5abff3239c09282891c2cea542a4414da7c587"
+  url "https://repo1.maven.org/maven2/com/uwyn/rife2/bld/3.0.0/bld-3.0.0.zip"
+  sha256 "38ae2553cf8cda172a5240d72137a8694699b9a294ea1a46f0fc430d21a522c8"
   license "Apache-2.0"
 
   depends_on "openjdk"
@@ -15,6 +15,6 @@ class Bld < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/bld help")
+    assert_match version.to_s, shell_output("#{bin}/bld help 2>&1")
   end
 end
